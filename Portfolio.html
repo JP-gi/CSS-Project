@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello world! My name is Jacques, i'm a student in web developement with a passion for creating stunning websites and why not applications in the future haha.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a student in web developement with experience in HTML, CSS, and JavaScript.</p>
+        <p>I realy love the world of coding and programation!</p>
+    </section>
+
+    <section id="work">
+        <h2>Work</h2>
+        <ul>
+            <li>Project 1 - GoMyCalculator</li>
+            <li>Project 2 - GoMyQuiz</li>
+        </ul>
+        <table border="1">
+            <caption>Project Details</caption>
+            <thead>
+                <tr>
+                    <th>Project</th>
+                    <th>Description</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Project 1</td>
+                    <td>A web calculator</td>
+                    <td>August 2024</td>
+                </tr>
+                <tr>
+                    <td>Project 2</td>
+                    <td>A web quiz</td>
+                    <td>August 2024</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>At the end of the day i'm just a person who likes coding and i love to learn it with GoMyCode :)</p>
+        <p>Here is a quick video to show how it's like to be with the GoMyCode team :</p>
+        <iframe
+	width="420"
+	height="315"
+	src="https://www.youtube.com/embed/zcTFG_F0FRs"
+></iframe>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+            <input type="submit" value="Send">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 My Portfolio.JP. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
